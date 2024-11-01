@@ -1,0 +1,10 @@
+#include <windows.h>
+#include "resource.h"
+
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+
+STRINGTABLE
+BEGIN
+    IDS_MENUTEXT    "Auto Folder"
+    IDS_HELPTEXT    "Creates a new folder named after the file and moves the file into it"
+END

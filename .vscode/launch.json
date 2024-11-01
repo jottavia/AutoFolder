@@ -1,0 +1,19 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Attach to Explorer (x64)",
+            "type": "cppvsdbg",
+            "request": "attach",
+            "processName": "explorer.exe",
+            "preLaunchTask": "build-debug-x64"
+        },
+        {
+            "name": "Attach to Explorer (x86)",
+            "type": "cppvsdbg",
+            "request": "attach",
+            "processName": "explorer.exe",
+            "preLaunchTask": "build-debug-x86"
+        }
+    ]
+}
